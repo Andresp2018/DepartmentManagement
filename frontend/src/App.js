@@ -1,14 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
+import {Home} from './Home';
+import {Department} from './Department';
+import {Employee} from './Employee';
+import {Navigation} from './Navigation';
+
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="Container">
-      <h3 className="m-3 d-flex justify-content-center">
-        General Department Management
-      </h3>
+    <BrowserRouter>
+    <div className="container">
+     <h3 className="m-3 d-flex justify-content-center">
+       Department Management System - Recat JS and .NET Core
+     </h3>
+
+     <Navigation/>
+
+     <Switch>
+       <Route path='/' component={Home} exact/>
+       <Route path='/department' component={Department}/>
+       <Route path='/employee' component={Employee}/>
+     </Switch>
     </div>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
