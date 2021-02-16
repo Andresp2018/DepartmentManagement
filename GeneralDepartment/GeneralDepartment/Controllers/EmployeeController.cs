@@ -167,7 +167,7 @@ namespace GeneralDepartment.Controllers
             catch (Exception)
             {
 
-                return new JsonResult("anonymous.png");
+                return new JsonResult("profile.png");
             }
         }
 
