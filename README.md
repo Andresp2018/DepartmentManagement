@@ -28,7 +28,7 @@ For production environments...
 
 ```sh
 Open GeneralDepartment.sln with Visual Studio
-Point your Browser to http://localhost:53535/
+Point your Browser to http://localhost:5000/
 Press ctlr + F5 to run the application
 Open the Frontend folder and run cmd or powershell
 npm start
