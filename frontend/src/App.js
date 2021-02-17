@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
     <div className="container">
      <h3 className="m-3 d-flex justify-content-center">
-       Department Management System - Recat JS and .NET Core
+       Department Management System - React JS and .NET Core
      </h3>
 
      <Navigation/>
